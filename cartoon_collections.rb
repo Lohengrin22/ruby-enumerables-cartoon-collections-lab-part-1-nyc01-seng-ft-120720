@@ -13,6 +13,6 @@ def list_dwarves(array)
   # Print a numbered list of each element
   array.each_with_index do |name, num|
     puts "#{num}. #{name}" 
-    binding.pry 
   end 
+  binding.pry 
 end
